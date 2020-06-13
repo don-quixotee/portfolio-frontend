@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+}
+
+.fixed-content {
+  width: auto;
+  max-width: 860px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px 35px 20px 35px;
+  text-align: center;
+}
+
+.header {
+	/* background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png'); */
+	/*background-attachment: fixed;*/
+	color:#05386b;
+	/* max-height: 500px; */
+	height: 100%;
+	background-color: #5cdb95;
+}
+
+	.port {
+		border-radius: 100%;
+		
+		border: 6px #05386b solid;
+		width:22%;
+		margin-bottom: 20px;
+	}
+.port:hover{
+	border: 9px #05386b solid;
+
+}
+
+.icon-row {
+	margin: 45px auto;
+	width: 100%;
+}
+
+.icon-row i {
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 44px;
+		margin: 0px 20px;
+		padding: 6px 6px;
+		transition: all 400ms ease-in-out;
+
+}
+
+.icon-row i:hover {
+			background: #FFF;
+			color: #ca5549;
+		}
+
+
+.nav-bar{
+	background-color: #05386b;
+	color: white;
+	padding: 5px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.menu-icon{
+	padding: 8px;
+}
+.menu-icon:hover{
+	background-color: white;
+	color: #05386b;
+}
