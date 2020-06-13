@@ -75,3 +75,14 @@ body {
 	background-color: white;
 	color: #05386b;
 }
+
+@media only screen and (max-width: 600px) {
+
+	.menu-icon{
+		padding: 3px;
+
+	}
+	.icon-row{
+		padding: 3px;
+	}
+}
